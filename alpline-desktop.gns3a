@@ -1,0 +1,46 @@
+{
+    "appliance_id": "7c95b3d2-7f3c-497d-a15f-9db237d5a289",
+    "name": "Alpine Linux Desktop",
+    "category": "guest",
+    "description": "Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox. This version includes a lightweight desktop environment suitable for resource-constrained environments.",
+    "vendor_name": "Alpine Linux",
+    "vendor_url": "https://alpinelinux.org/",
+    "documentation_url": "https://wiki.alpinelinux.org/",
+    "product_name": "Alpine Linux Desktop",
+    "product_url": "https://alpinelinux.org/",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "GNS3 Team",
+    "maintainer_email": "developers@gns3.net",
+    "usage": "Login with the username 'testing' and password 'testing'. For root access, use 'toor' as the password.",
+    "symbol": "linux_guest.svg",
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 1,
+        "ram": 512,
+        "hda_disk_interface": "virtio",
+        "arch": "x86_64",
+        "console_type": "vnc",
+        "kvm": "allow",
+        "options": "-vga std -usbdevice tablet"
+    },
+    "images": [
+        {
+            "filename": "Alpine_Desktop.qcow2",
+            "version": "latest",
+            "md5sum": "78cd02e500099fe3cb4e4be2386f7c97",
+            "filesize": 1181116006,
+            "download_url": "https://drive.google.com/file/d/15IUU3Jdakj_ict7V2woLz2c0SrUhkiLZ/view?usp=sharing",
+            "direct_download_url": "https://drive.google.com/uc?export=download&id=15IUU3Jdakj_ict7V2woLz2c0SrUhkiLZ"
+        }
+    ],
+    "versions": [
+        {
+            "name": "latest",
+            "images": {
+                "hda_disk_image": "Alpine_Desktop.qcow2"
+            }
+        }
+    ]
+}
+
