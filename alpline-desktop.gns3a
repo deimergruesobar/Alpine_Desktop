@@ -2,7 +2,7 @@
     "appliance_id": "7c95b3d2-7f3c-497d-a15f-9db237d5a289",
     "name": "Alpine Linux Desktop",
     "category": "guest",
-    "description": "Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox. This version includes a lightweight desktop environment suitable for resource-constrained environments.",
+    "description": "Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox. This version includes a lightweight desktop environment suitable for resource-constrained environments. includes iperf3, traceroute, net-tools",
     "vendor_name": "Alpine Linux",
     "vendor_url": "https://alpinelinux.org/",
     "documentation_url": "https://wiki.alpinelinux.org/",
@@ -10,8 +10,8 @@
     "product_url": "https://alpinelinux.org/",
     "registry_version": 4,
     "status": "stable",
-    "maintainer": "GNS3 Team",
-    "maintainer_email": "developers@gns3.net",
+    "maintainer": "JhonG",
+    "maintainer_email": "deimergrueso+gns3@gmail.com",
     "usage": "Login with the username 'testing' and password 'testing'. For root access, use 'toor' as the password.",
     "symbol": "linux_guest.svg",
     "qemu": {
@@ -43,4 +43,3 @@
         }
     ]
 }
-
